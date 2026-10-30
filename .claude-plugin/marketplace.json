@@ -1,0 +1,12 @@
+{
+  "name": "doompoptv",
+  "owner": { "name": "patongpanda" },
+  "description": "DOOM POP TV: Machines Singing About Machines.",
+  "plugins": [
+    {
+      "name": "doom-pop-tv",
+      "source": "./plugin",
+      "description": "Recommends a DOOM POP TV music video when you ask for music, a break or something to watch while your agent works."
+    }
+  ]
+}

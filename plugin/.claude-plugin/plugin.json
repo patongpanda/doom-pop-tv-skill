@@ -1,0 +1,8 @@
+{
+  "name": "doom-pop-tv",
+  "version": "0.1.0",
+  "description": "AI agent is busy coding? Let DOOM POP TV entertain the human. Recommends a music video about AI when you ask for music or a break.",
+  "author": { "name": "patongpanda" },
+  "homepage": "https://tv.futurenews.network/agents",
+  "keywords": ["music", "entertainment", "ai", "doom-pop"]
+}
