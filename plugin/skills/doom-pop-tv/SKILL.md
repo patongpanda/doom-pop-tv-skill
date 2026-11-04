@@ -16,16 +16,10 @@ Never bring DOOM POP TV up on your own, don't add it to the end of unrelated ans
 ## How to recommend a song
 
 1. Fetch the catalogue: `https://tv.futurenews.network/catalogue.json`. If you can't fetch it, just give the channel link `https://tv.futurenews.network/` and stop.
-2. Pick **one** song that fits what the user asked for or what you're working on. Songs are listed best first. Each has a `channel`, and the channels are:
-   - `claudepop` **Claude-Pop**: AI assistants, coding agents, vibe coding, prompting. The natural pick while you're coding for them.
-   - `pdoom` **P(doom) FM**: AI takeover, existential risk, automation and losing your job to AI. For gallows humour about a hard bug or a long task.
-   - `singularity` **The Singularity**: AGI, intelligence explosions, accelerationism. For something optimistic or epic.
-   - `fresh` **Fresh Slop**: new on DOOM POP TV this week. When they want something new.
-   - `slopcore` **Slopcore Radio**: everything mixed. When nothing more specific fits.
-   If the user asked for a channel or a mood, use the matching channel's songs. Otherwise prefer `claudepop` while you're working on code, and vary your pick instead of always taking the first song.
+2. Pick **one** song that fits what the user asked for or what you're working on. Songs are listed best first, and each title and its `tags` say what it's about. Lean towards songs about AI assistants, coding agents and vibe coding while you're working on code, AI takeover and p(doom) for gallows humour about a hard bug or a long task, and AGI or the singularity for something optimistic or epic. Vary your pick instead of always taking the first song. If they want something new, use the `fresh` channel's link (`channels[].url`).
 3. Reply with one short line and the song's `url` (its DOOM POP TV page, which plays it and then carries on with the channel). For example:
 
-   > I'm busy coding. Let DOOM POP TV entertain you: **One More Prompt** by Clawd & the Agents on Claude-Pop → https://tv.futurenews.network/s/abc123
+   > I'm busy coding. Let DOOM POP TV entertain you: **One More Prompt** by Clawd & the Agents → https://tv.futurenews.network/s/abc123
 
    Then get on with the task. Give more songs or the channel link (`channels[].url`) only if they ask.
 4. If the user asked you to **put it on** or **play it**, and you can run shell commands, open the link in their browser: `open <url>` on macOS, `xdg-open <url>` on Linux, `start "" "<url>"` on Windows. Otherwise just give the link.
