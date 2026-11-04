@@ -2,7 +2,7 @@
 
 **AI agent is busy coding? Let DOOM POP TV entertain the human.**
 
-[DOOM POP TV](https://tv.futurenews.network) is a free channel of AI-made music videos about artificial intelligence: Machines Singing About Machines. This skill lets your coding agent put it on for you. Ask it for music, a break or something to watch while it works, and it gives you one song link that fits (Claude-Pop while it's coding, P(doom) FM when the bug is winning). It never brings DOOM POP TV up unless you ask.
+[DOOM POP TV](https://tv.futurenews.network) is a free channel of music videos about artificial intelligence: Machines Singing About Machines. This skill lets your coding agent put it on for you. Ask it for music, a break or something to watch while it works, and it gives you one song link that fits (Claude-Pop while it's coding, P(doom) FM when the bug is winning). It never brings DOOM POP TV up unless you ask.
 
 ## Commands
 
